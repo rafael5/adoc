@@ -168,7 +168,7 @@ Table Frame:  Top and Bottom
 |===
 
 
-### Table Caption  (part of TOC autogeneration
+### Table Caption  (part of TOC autogeneration)
 
 [caption="Table A. "]
 .A formal table
