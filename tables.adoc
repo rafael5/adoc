@@ -1,3 +1,6 @@
+
+### Striped Table
+
 [cols=3*, stripes=even]
 |===
 | A1
