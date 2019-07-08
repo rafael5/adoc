@@ -69,7 +69,7 @@
 |Cell in column 2, row 2
 |===
 
-### Table Width constrained to 75%
+### Table Width: Constrained to 75%
 
 [width=75%]
 |===
@@ -83,6 +83,129 @@
 |Cell in column 2, row 2
 |Cell in column 3, row 2
 |===
+
+
+### Table Width: Auto
+
+[%autowidth]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+
+### Table Width:  Full-width, Auto
+
+[%autowidth.stretch]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+
+Table Frame:  Top and Bottom
+
+[frame=topbot]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+
+### Table Frame:  Sides
+
+[frame=sides]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+### Table Frame: None
+
+[frame=none]
+|===
+|Name of Column 1 |Name of Column 2 |Name of Column 3
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+|Cell in column 3, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|Cell in column 3, row 2
+|===
+
+
+### Table Caption  (part of TOC autogeneration
+
+[caption="Table A. "]
+.A formal table
+|===
+|Name of Column 1 |Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+### Table: Delimiter-Separated Values
+
+#### CSV
+[%header,format=csv]
+|===
+Artist,Track,Genre
+Baauer,Harlem Shake,Hip Hop
+The Lumineers,Ho Hey,Folk Rock
+|===
+
+#### TSV
+[%header,format=dsv]
+|===
+Artist:Track:Genre
+Robyn:Indestructable:Dance
+The Piano Guys:Code Name Vivaldi:Classical
+|===
+
+#### DSV
+[%header,format=dsv]
+|===
+Artist:Track:Genre
+Robyn:Indestructable:Dance
+The Piano Guys:Code Name Vivaldi:Classical
+|===
+
+
+
 
 
 
