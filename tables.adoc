@@ -1,3 +1,7 @@
+## Asciidoc Tables Examples
+
+Reference:  https://asciidoctor.org/docs/user-manual/#tables
+
 
 ### Striped Table
 
@@ -204,6 +208,23 @@ Robyn:Indestructable:Dance
 The Piano Guys:Code Name Vivaldi:Classical
 |===
 
+
+### Table:  Shorthand Notation for Data Tables
+
+#### CSV
+,===
+Artist,Track,Genre
+
+Baauer,Harlem Shake,Hip Hop
+,===
+
+
+#### DSV
+:===
+Artist:Track:Genre
+
+Robyn:Indestructable:Dance
+:===
 
 
 
