@@ -230,16 +230,16 @@ Robyn:Indestructable:Dance
 
 
 ## Styling Columns and Cells in Tables
-We can either use the cols attribute to define a style for a whole column or specify per cell the style. We can use the following styles:
+We can use either the cols attribute to define a style for a whole column or specify per cell the style, using the following styles:
 
-e: emphasized
-a: Asciidoc markup
-m: monospace
-h: header style, all column values are styled as header
-s: strong
-l: literal, text is shown in monospace font and line breaks are kept
-d: default
-v: verse, keeps line breaks
+* e: emphasized
+* a: Asciidoc markup
+* m: monospace
+* h: header style, all column values are styled as header
+* s: strong
+* l: literal, text is shown in monospace font and line breaks are kept
+* d: default
+* v: verse, keeps line breaks
 
 
 
